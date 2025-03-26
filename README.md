@@ -98,3 +98,35 @@ python
 Run Code
 Copy code
 Select Option 4 → Saves to `chess_report.txt`.
+
+Usage Examples
+Blunder Detection
+python
+Run Code
+Copy code
+Select Option 4 → Analyze cached games for blunders.
+Engine Battle Mode
+python
+Run Code
+Copy code
+Select Option 5 → Enter FEN (e.g., "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1").
+Generate Reports
+python
+Run Code
+Copy code
+Select Option 4 → Saves to `chess_report.txt`.
+Project Structure
+python
+Run Code
+Copy code
+chess-tools-hub/
+├── .github/            # CI/CD workflows
+├── src/                # Source code
+│   ├── chess_analyzer.py
+│   ├── requirements.txt
+│   └── tests/          # Unit tests
+├── docs/               # Documentation
+├── reports/            # Generated reports
+├── .gitignore
+├── LICENSE
+└── README.md
