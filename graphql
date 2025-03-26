@@ -1,0 +1,23 @@
+chess-analyzer-pro/
+├── .github/
+│   └── workflows/
+│       └── tests.yml          # GitHub Actions CI/CD
+├── src/
+│   ├── chess_analyzer.py      # Main application
+│   ├── requirements.txt       # Python dependencies
+│   └── tests/
+│       ├── test_analysis.py   # Unit tests
+│       └── test_data/
+│           ├── sample.pgn     # Sample PGN for testing
+│           └── test_fen.txt   # Sample FENs
+├── docs/
+│   ├── SETUP.md               # Detailed setup guide
+│   ├── USER_GUIDE.md          # Usage instructions
+│   └── API_REFERENCE.md       # Developer docs
+├── reports/                   # Auto-generated reports
+│   ├── chess_report.txt       # Sample output
+│   └── accuracy_trend.png     # Sample graph
+├── .gitignore
+├── LICENSE
+├── README.md                  # Project overview
+└── setup.py                   # Installation script
